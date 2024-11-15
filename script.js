@@ -14,6 +14,7 @@ function getRandomWord() {
   return currentWords[randomIndex];
 }
 
+
 function createFallingWord() {
   const wordText = getRandomWord();
   if (!wordText) return;  // No words left to drop
